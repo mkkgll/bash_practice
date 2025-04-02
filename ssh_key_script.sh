@@ -9,3 +9,4 @@ ssh-keygen -t ed25519 -C "$email" -f "$key_file"
 
 echo "Your ssh key: "
 cat "$key_file.pub"
+
